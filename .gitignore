@@ -8,6 +8,9 @@ yarn-debug.log*
 # Dependency directories
 /node_modules
 
+# Environment variables
+.env
+
 # Build output
 /build
 /dist
@@ -16,6 +19,8 @@ yarn-debug.log*
 /tmp
 
 # Environment variables
+.env
+.env.example
 .env.local
 .env.development.local
 .env.test.local
